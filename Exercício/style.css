@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(206, 170, 118);
+    color: white;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size:40px;
+}
+
+header{
+    padding:40px;
+    margin:40px;
+}
+
+input{
+    visibility: hidden;
+}
+
+label{
+    cursor: pointer;
+    color: rgb(88, 86, 86);
+    padding: 50px;
+    font-size:20px;
+}
+
+input:checked+label{
+    color:white;
+}
+
+#text{
+    padding: 90px 0 0 0;
+    width: 100%;
+    line-height: 30px;
+}
